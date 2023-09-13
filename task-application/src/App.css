@@ -1,0 +1,4 @@
+.task-form {
+  flex-direction: column;
+  display: flex;
+}
