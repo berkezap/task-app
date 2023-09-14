@@ -1,7 +1,5 @@
-function TaskList(){
-    return (
-        <div></div>
-    )
+function TaskList() {
+  return <div></div>;
 }
 
-export default TaskList; 
+export default TaskList;

@@ -4,7 +4,7 @@ import TaskList from "./components/TaskList";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <TaskCreate />
       <h1>Görevlerim</h1>
       <TaskList />

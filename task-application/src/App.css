@@ -1,4 +1,40 @@
-.task-form {
-  flex-direction: column;
+.App {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-create {
+  width: 450px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-label {
+  margin: 10px 0px;
+}
+
+.task-input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.task-button {
+  margin: 10px 0px;
+  padding: 10px;
+  border: 1px solid green;
+  background: green;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.add-task {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
