@@ -1,7 +1,7 @@
-import "./App.css";
-import TaskCreate from "./components/TaskCreate";
-import TaskList from "./components/TaskList";
-import { useState } from "react";
+import './App.css';
+import TaskCreate from './components/TaskCreate';
+import TaskList from './components/TaskList';
+import { useState } from 'react';
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -16,17 +16,17 @@ function App() {
     ];
     setTasks(createdTasks);
   };
+
   const deleteTaskById = (id) => {
     const afterDeletingTasks = tasks.filter((task) => {
       return task.id !== id;
     });
     setTasks(afterDeletingTasks);
   };
-
   return (
     <div className="App">
       <TaskCreate onCreate={createTask} />
-      <h1>Görevlerim</h1>
+      <h1>Görevler</h1>
       <TaskList tasks={tasks} onDelete={deleteTaskById} />
     </div>
   );
